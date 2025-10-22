@@ -9,40 +9,44 @@ A NestJS CRUD application for Pokémon.
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
-# Ejecutar en desarrollo
+# Running in Development
 
-1. Clonar el repositorio
-2. Ejecutar
+1. Clone the repository
+2. Install dependencies
 
 ```
 npm install
 ```
 
-3. Tener Nest CLI instalado
+3. Make sure you have the Nest CLI installed
 
 ```
 npm i -g @nestjs/cli
 ```
 
-4. Levantar la base de datos
+4. Start the database
+
 ```
 docker-compose up -d
 ```
 
-5. Clonar el archivo __.env.example__ y renombrar la copia a __.env__
+5. Copy the file __.env.example__ and rename the copy to __.env__
 
-6. Llenar las variables de entorno defifinas en el __.env__
+6. Fill in the environment variables defined in the __.env__ file
 
-7. Ejecutar la aplicación en desarrollo:
+7. Run the application in development mode:
+
 ```
 npm run start:dev
 ```
 
-8. Reconstruir la base de datos con la semilla
+8. Seed the database by visiting:
+
 ```
 http://localhost:3000/api/v2/seed
 ```
 
-## Stack Usado
+## Stack Used
+
 * MongoDB
-* Nest
+* NestJS
